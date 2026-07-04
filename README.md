@@ -76,8 +76,4 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 **Swetha C**
 
 - GitHub: https://github.com/Swerudra
-- LinkedIn: *(Add your LinkedIn profile here)*
-
-## ⭐ Support
-
-If you like this project, don't forget to **⭐ Star** this repository!
+- LinkedIn: https://www.linkedin.com/in/swethacr/
