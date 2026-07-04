@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Puzzle Game</title>
+
+<link rel="stylesheet"
+href="css/game.css">
+
+</head>
+
+<body>
+
+<div class="topBar">
+
+<h2 id="levelTitle">
+
+Level 1
+
+</h2>
+
+<div>
+
+Time :
+<span id="timer">0</span>
+
+</div>
+
+<div>
+
+Moves :
+<span id="moves">0</span>
+
+</div>
+
+</div>
+
+<h2 id="welcome"></h2>
+
+<div id="puzzle"></div>
+
+<br>
+
+<button onclick="restartGame()">
+
+🔄 Restart
+
+</button>
+
+<button onclick="hint()">
+
+💡 Hint
+
+</button>
+
+<button onclick="goLevels()">
+
+🧩 Levels
+
+</button>
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+<h2 id="message"></h2>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="js/achievements.js"></script>
+
+<script src="js/game.js"></script>
+
+</body>
+
+</html>
